@@ -1,0 +1,118 @@
+<html>
+
+<head>
+    <title>HTML Form Tag</title>
+</head>
+
+<body>
+    <marquee behavior="" direction="">
+        <h1 style="background-color: aqua ; text-align: center;">HTML Form Tag</h1>
+    </marquee>
+    <fieldset style="background-color:mediumslateblue ;">
+        <legend style="background-color:6DB9EF;">personal Data</legend>
+        <br /><br />
+        <form>
+            <fieldset style="background-color: beige;"><br /><br />
+                <legend style="background-color: aqua;">
+                    <P>
+                        <br /> Your Name <br /><br />
+                    </P>
+                </legend>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="fname">first name</label>
+                            </td>
+                            <td>
+                                :<input id="fname" required="required" type="text" placeholder="fawzey"
+                                    name="first name" />
+                            </td>
+                        </tr><br />
+                        <tr>
+                            <td>
+                                <label for="scname">second name</label>
+                            </td>
+                            <td>
+                                :<input id="scname" required="required" type="text" placeholder="Abdelkader"
+                                    name="second name" />
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="phone">Your phone</label>
+                        </td>
+                        <td>
+                            :<input id="phone" type="tel" name="yourphone" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="ANEmail">Email</label>
+                        </td>
+                        <td>
+                            :<input id="ANEmail" type="email" name="Email" placeholder="fawzey123@com"
+                                required="required" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="youpassword">password</label>
+                        </td>
+                        <td>
+                            :<input id="youpassword" type="password" name="password" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mpassword">re-password</label>
+                        </td>
+                        <td>
+                            :<input id="mpassword" type="password" name="re-password" />
+                        </td>
+                    </tr>
+                    <br /><br />
+
+                </tbody>
+            </table>
+            <br /><br />
+            <input id="anmale" type="radio" name="Gender" value="male" />
+            <label for="anmale">male</label>
+            <br /><br />
+            <input id="anfemale" type="radio" name="Gender" value="female" />
+            <label for="anfemale">female</label>
+            <br />
+            <br />
+            <br />
+            <input id="anstudent" type="checkbox" name="statues" value="student">
+            <label for="anstudent">student</label>
+            <br /> <br>
+            <input id="angraduated" type="checkbox" name="statues" value="Graduated">
+            <label for="angraduated">Graduated</label>
+            <br /> <br />
+            <select name="CarName">
+                <optgroup label="Group1">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                </optgroup>
+                <optgroup label="group2">
+                    <option style="font-weight: 100;" value="BMW">BMW</option>
+                    <option value="marceds">marceds</option>
+                </optgroup>
+                <optgroup label="group3">
+                    <option value="TioTa">TioTa</option>
+                    <option value="Kia">Kia</option>
+                </optgroup>
+            </select><br /><br />
+            <button type="submit"><img src="/submit.jpeg" alt="submit" width="70"></button>
+        </form>
+
+    </fieldset>
+</body>
+
+</html>
